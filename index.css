@@ -1,0 +1,42 @@
+.clients {
+ 
+    padding: 10px 0;
+    text-align: center;
+    
+  }
+  
+  .clients .col-lg-2 {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .clients img {
+    
+    border-radius: 10%;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 10px 0;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .clients img {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .clients {
+      transform: translateY(-80px);
+    }
+  
+    .clients img {
+      width: 60%;
+    }
+  
+    .services {
+      margin-top: -50px;
+    }
+  }
